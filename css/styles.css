@@ -1,0 +1,296 @@
+/* Estilos generales del cuerpo y diseño de la página */
+body {
+    background-color: #cac6b8;  /* Color de fondo del cuerpo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Altura mínima del cuerpo */
+}
+
+/* Estilos del encabezado de la página */
+header {
+    background-color: #e7e4d5;  /* Color de fondo del encabezado */
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Estilos del logo en el encabezado */
+.logo img {
+    height: 150px;  /* Altura del logo */
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 10px;  /* Espacio entre elementos de la lista */
+}
+
+nav a,
+nav button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'BigJohnPRO-Bold', Arial, sans-serif;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: #333;
+    border-radius: 40px;
+    display: flex;
+    
+}
+
+/* Estilos del contenido principal de la página */
+main {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    font-family: 'BigJohnPRO-Bold', Arial, sans-serif;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    font-family: 'Qontra', Arial, sans-serif;
+}
+
+main p {
+    font-family: 'BigJohnPRO-Regular', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Estilos del menú */
+.menu {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    text-align: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li {
+    margin-right: 85px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'BigJohnPRO-Regular';
+    font-size: 25px;
+    background-color: #e7e4d5;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 200px;
+    max-height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu p {
+    font-family: 'BigJohnPRO-Light';
+    font-size: 17px;
+}
+
+.menu p.precio {
+    font-family: 'BigJohnPRO-Bold';
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 0;
+    color: green;
+}
+
+/* Estilos de la sección "Acerca de" */
+.acercade {
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: #e7e4d5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.acercade h2 {
+    margin-left: 100px;
+    align-self: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.acercade img {
+    height: auto;
+    width: 350px;
+}
+
+/* Estilos del formulario de contacto */
+.form-contact {
+    padding: 30px;
+    margin-top: 0;
+    border-radius: 4px;
+    font-family: 'BigJohnPRO-Bold';
+}
+
+.form-contact h4 {
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.controls {
+    width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.controls-message {
+    width: 1000px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: none;
+    align-items: flex-start;
+}
+
+.form-contact .bottons {
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sucursales {
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.sucursales ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.sucursales li {
+    margin-right: 85px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'BigJohnPRO-Regular';
+    font-size: 25px;
+    background-color: #e7e4d5;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.sucursales img {
+    display: flex;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.sucursales p {
+    font-family: 'BigJohnPRO-Light';
+    font-size: 17px;
+}
+
+/* Estilos de las imágenes de pizza */
+.pizza-img {
+    max-width: 100%;
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.redes{
+    margin: auto;
+    display: flex;
+    border: 0;
+}
+
+.redes ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 125px;
+}
+
+.redes img{
+    height: auto;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Fuentes personalizadas */
+@font-face {
+    font-family: 'Qontra';
+    src: url('Qontra.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'aqua';
+    src: url('aqua.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Brassie-Regular';
+    src: url('Brassie-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BigJohnPRO-Bold';
+    src: url('BigJohnPRO-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BigJohnPRO-Regular';
+    src: url('BigJohnPRO-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BigJohnPRO-Light';
+    src: url('BigJohnPRO-Light.otf') format('truetype');
+}
